@@ -1,0 +1,18 @@
+angular-spa/custom-login/build2
+angular-spa/custom-login/node_modules
+angular-spa/custom-login/dist
+angular-spa/custom-login/npm-debug.log
+angular-spa/custom-login/travis_phantomjs
+public
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven
+api/.classpath
+api/.project
+api/.settings
+api/target

@@ -1,0 +1,21 @@
+server:
+  port: 8090
+
+spring:
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+logging:
+  level:
+    org:
+      springframework:
+        security: TRACE
+    com:
+      okta:
+        spring: DEBUG
+
+okta:
+  oauth2:
+    issuer: https://dev-45697179.okta.com/oauth2/default
+    #audience: api://default
