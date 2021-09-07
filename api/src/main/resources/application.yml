@@ -18,4 +18,4 @@ logging:
 okta:
   oauth2:
     issuer: https://dev-4569717.okta.com/oauth2/default
-    #audience: api://default
+    audience: api://default
