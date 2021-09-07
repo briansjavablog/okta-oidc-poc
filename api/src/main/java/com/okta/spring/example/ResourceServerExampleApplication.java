@@ -78,7 +78,12 @@ public class ResourceServerExampleApplication {
             Map<String, Object> result = new HashMap<>();
             result.put("messages", Arrays.asList(
                     new Message("Hello Mo"),
-                    new Message("Hello Brian")
+                    new Message("Hello Brian"),
+                    new Message("Hello Gearoid"),
+                    new Message("Hello Sibylle"),
+                    new Message("Hello Maureen"),
+                    new Message("Hello Colin"),
+                    new Message("Goodbye Pirean")
             ));
 
             return result;

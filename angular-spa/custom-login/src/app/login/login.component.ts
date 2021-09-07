@@ -39,7 +39,7 @@ export class LoginComponent implements OnInit {
       baseUrl: sampleConfig.oidc.issuer.split('/oauth2')[0],
       clientId: sampleConfig.oidc.clientId,
       redirectUri: sampleConfig.oidc.redirectUri,
-      logo: '/assets/angular.svg',
+      logo: '/assets/cl-web-logotm.svg',
       i18n: {
         en: {
           'primaryauth.title': 'Sign in to Angular & Company',
@@ -60,7 +60,7 @@ export class LoginComponent implements OnInit {
     if (!originalUri || originalUri === DEFAULT_ORIGINAL_URI) {
       this.oktaAuth.setOriginalUri('/');
     }
-    
+
     this.signIn.showSignInToGetTokens({
       el: '#sign-in-widget',
       scopes: sampleConfig.oidc.scopes
